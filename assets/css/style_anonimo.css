@@ -1,0 +1,172 @@
+:root {
+
+    --white: #fff;
+    --backpadrao:  #f6f8fa !important;
+    --cor_padrao : #535455 !important;
+}
+
+body {
+    font-family: 'Nunito', sans-serif !important;
+    /* background-color: #f6f8fa !important; */
+    background-color: #fff !important;
+    /* background-color: blue !important; */
+}
+
+a {
+    text-decoration: none !important; 
+}
+
+.login_1 {
+    /* border: red 1px solid ; */
+    padding: 150px;
+}
+
+.material-symbols-outlined {
+    font-size: 100px !important; /* ou o tamanho desejado */
+}
+
+.form-cadastro {
+    /* border: black 1px solid !important; */
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: white;
+    padding: 20px;
+}
+
+.btn1 {
+    border-radius: 40px !important;  
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+input[type=text], input[type=email], input[type=password]{
+    border-radius: 20px;
+}
+
+input[type=file] {
+    border-radius: 50px !important; 
+}
+
+select {
+    border-radius: 20px !important;  
+}
+
+.valido {
+    border: 2px solid rgb(13, 241, 13);
+}  
+
+.invalido {
+    border: 2px solid red;
+}
+
+.nav_controller {
+    background-color: var(--cor_padrao) !important;
+    padding: 40px !important;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.nav_controller_mobile {
+    
+    background-color: var(--cor_padrao) !important;
+    padding: 5px !important;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-toggler {
+    background-color: #f6f8fa !important;
+    
+}
+.cont_sessao {
+    background-color: var(--white);
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    font-size: 0.9rem;
+
+}
+.cont_sessao2 {
+    padding: 20px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    
+}
+.spanPersonal {
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 10px; /* Ajuste o valor da margem conforme necessário */
+    color: var(--cor_padrao);
+}
+
+.spanPersonal a:hover {
+  background-color: var(--white); /* Cor de fundo ao passar o mouse */
+  color: var(--cor_padrao); /* Cor do texto ao passar o mouse */
+  border-radius: 25px;
+  padding: 14px;
+}
+.cont_sessao3 {
+    font-size: 20px;
+    
+}
+.aviso_inicial {
+    background-color:var(--backpadrao);
+    padding: 60px;
+
+}
+
+.card_personalizado {
+    border: 1px solid var(--backpadrao);
+    padding: 30px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: var(--backpadrao);
+
+}
+
+.span_texto{
+    font-size: 30px;
+}
+.card_personalizado a:hover{
+    background-color: var(--white); /* Cor de fundo ao passar o mouse */
+}
+
+.banner {
+    width: 992px;
+    height: 250px;
+    border: 1px solid red;
+
+}
+
+footer {
+    background-color: var(--cor_padrao);
+    /* background: linear-gradient(to top, #033c97 48%, #f6f8fa 100%); */
+    /* margin: 300px; */
+    color: var(--backpadrao);
+    text-decoration-color: var(--backpadrao);
+
+}
+footer .container {
+    padding: 100px;
+
+}
+
+footer ul {
+    list-style: none;
+    text-decoration: none;
+}
+footer a {
+    color: var(--backpadrao);
+}
+footer li {
+    padding: 10px;
+}
+footer li:hover {
+    background-color: var(--cor_padrao); /* Cor de fundo ao passar o mouse */
+    color:var(--white); /* Cor do texto ao passar o mouse */
+    border-radius: 25px;
+    padding: 14px;
+
+}
+
+.subfooter {
+    padding: 25px;
+}
