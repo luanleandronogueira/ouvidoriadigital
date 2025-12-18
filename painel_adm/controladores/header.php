@@ -110,7 +110,7 @@
 
             <nav class="nav_controller_mobile navbar navbar-expand-lg d-lg-none d-xl-none d-xxl-none">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="dashboard.php">
+                    <a class="navbar-brand" href="dados_analiticos.php">
                         <img src="../assets/images/logo.png" alt="Logo" width="200" class="d-inline-block align-text-top">
                     </a>
                     <button class="navbar-toggler border-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
@@ -125,7 +125,7 @@
 
         <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
             <div class="offcanvas-header">
-                <a class="navbar-brand" href="dashboard.php">
+                <a class="navbar-brand" href="dados_analiticos.php">
                     <img src="../assets/images/logo.png" alt="Logo" width="200" class="d-inline-block align-text-top">
                 </a>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -135,6 +135,7 @@
                     <p><a href="perfil.php">Ver Perfil</a></p>
                     <p><a href="dados_analiticos.php">Início</a></p>
                     <p><a href="minhas_manifestacoes.php">Manifestações</a></p>
+                    <p><a href="configuracoes.php">Configurações</a></p>
                     <p><a href="sair.php">Sair</a></p>
                 </ul>
             </div>

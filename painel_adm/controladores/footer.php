@@ -17,6 +17,7 @@
             <div class="footer-links">
                 <h5>Ajuda</h5>
                 <a target="_blank" href="suporte.php">Suporte</a>
+                <a href="configuracoes.php">Configurações</a>
             </div>
         </div>
         <div class="copyright">
